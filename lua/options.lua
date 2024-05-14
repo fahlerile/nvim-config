@@ -1,6 +1,11 @@
 -- :help option-list
+
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+
 vim.opt.number = true
 vim.opt.relativenumber = true
+vim.opt.colorcolumn = '80'
 
 vim.opt.mouse = 'a'
 vim.opt.showmode = true
@@ -28,4 +33,4 @@ vim.opt.splitbelow = true
 
 -- Print unprintable
 vim.opt.list = true
-vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+vim.opt.listchars = { tab = '│ ', trail = '·', nbsp = '␣' }
